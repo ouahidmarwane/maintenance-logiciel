@@ -5,7 +5,7 @@ git restore allows you to discard changes in the working directory.
 It restores a file to the last committed version without changing the commit history.
 
 ## git reset
-git reset moves the HEAD pointer. Branch A says: use --soft/--mixed/--hard to control staged and working tree.
+git reset moves the HEAD pointer. Use --soft/--mixed/--hard to control staging and working tree. Branch A: use --soft/--mixed/--hard to control staged and working tree. Branch B: use --hard to reset working tree when necessary.
 
 ### Difference
 - git restore: undo file changes safely
